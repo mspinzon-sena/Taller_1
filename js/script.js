@@ -145,6 +145,7 @@ switch(opcion) {
 
 ////////////////////////////////////////////////////////////////
 //Ejercicios de Condicionales - FINAL
+/*
 let opcion=parseInt(prompt("Digite la opción : 1-Suma 2-Resta 3-Multiplicación 4-División 5-Potencia 6-Raiz"));
 if (opcion==5 || opcion==6) {
     switch(opcion) {
@@ -155,7 +156,7 @@ if (opcion==5 || opcion==6) {
         break;
         case 6: //Raiz
             let raiz=parseFloat(prompt("Escriba el número de la raiz"));
-            window.alert("El resultado es "+Math.sqrt(raiz).toPrecision(3)); //.toPrecision(...) es para saber cuantas cifras quiere mostrar
+            window.alert("El resultado es "+Math.sqrt(raiz).toFixed(2)); //.toFixed(...) es para saber cuantas CIFRAS quiere mostrar
         break;
     }
 } else {
@@ -184,3 +185,15 @@ switch(opcion) {
     break;
 }
 }
+*/
+let estado= window.confirm("¿Iniciar ciclo?");
+
+while (estado==true) {
+    console.log("Hola soy Michael");
+    let continuar= window.confirm("¿Continuar?");
+    if (continuar==false) {
+        break
+    }
+}
+
+
