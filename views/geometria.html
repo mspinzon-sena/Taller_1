@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Áreas y Perímetro</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <!--<link rel="stylesheet" href="https://i.icomoon.io/public/temp/5d754fec84/UntitledProject/style-svg.css">-->
+    <!--FONT -->
+    <link href="http://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+</head>
+<body>
+    <div id="alineartexto">
+            <h1 style="font-size: 2em; font-family: sans-serif;">Figuras Geométricas</h1>
+            <div id="espacioregresar-2">   
+                <a href="../index.html" id="botonregresar"><i class="fa-solid fa-arrow-left" id="iconoregresar"></i></a>
+                </div>
+            </div>
+        <div class="card">
+            <div class="face front">
+                <img src="../img/Cuadrado.png" alt="">
+                <h3>Cuadrado</h3>
+            </div>
+            <div class="face back">
+                <h3>Cuadrado</h3>
+                <button class="figuras" id="abrirModal">Perímetro</button>
+                <button class="figuras" id="abrirModal2">Área</button>
+                <div class="link">
+                    <button class="figuras" id="abrirModalD">Detalles</button>
+                </div>
+            </div>
+        </div>
+        <div id="ventanaModal" class="modal">
+            <div class="contenidoModal">
+                <span class="cerrarModal"><i class="fa-solid fa-xmark"></i></span>
+                <h2>Perímetro Cuadrado</h2>
+                <form class="form-ejercicios">
+                    <div class="form">
+                        <div class="grupo">
+                            <input type="number" class="" id="ladoCuadrado" required><span class="barra"></span>
+                            <label for="ladoCuadrado" class="">Lado</label>
+                        </div>
+                        <button type="submit" class="submit" id="submit" style="margin-left: 39px; ">Calcular</button>
+                    </div>
+                    <div id="form">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="ventanaModal2" class="modal2">
+            <div class="contenidoModal2">
+                <span class="cerrarModal2"><i class="fa-solid fa-xmark"></i></span>
+                <h2>Área Cuadrado</h2>
+                <form class="form-ejercicios">
+                    <div class="form">
+                        <div class="grupo">
+                            <input type="number" class="" id="ladoCuadradoA" required><span class="barra"></span>
+                            <label for="ladoCuadradoA" class="">Lado</label>
+                        </div>
+                        <button type="submit" class="submit" id="submitA" style="margin-left: 39px; ">Calcular</button>
+                    </div>
+                    <div id="formA">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="ventanaModalD" class="modald" style="padding-top: 100px;">
+            <div class="contenidoModalD">
+                <span class="cerrarModalD"><i class="fa-solid fa-xmark"></i></span>
+                <h2>ÁREAS Y PERÍMETROS</h2>
+                <h4 style="padding-top: .5rem;">PERÍMETRO</h4>
+                <p style="padding: .5rem">El perímetro de un cuadrado es cuatro veces el valor del lado</p>
+                <p style="color: rgb(128, 0, 0); display: flex; justify-content: center;
+                padding: .5rem;">P = 4 · a</p>
+                <h4 style="padding-top: .5rem;">ÁREA</h4>
+                <p style="padding: .5rem">El área de un cuadrado es igual al cuadrado de la longitud del lado.</p>
+                <p  style="color: rgb(128, 0, 0); display: flex; justify-content: center;
+                padding: .5rem;">A= a<sub>2</sub></p>
+                <img src="../img/areas11.gif" alt="AreaCuadrado" style="position: relative;left: 40%;padding-top: .5rem;">
+            </div>
+        </div>
+        <div class="card">
+            <div class="face front">
+                <img src="../img/Triangulo.png" alt="">
+                <h3>Triángulo</h3>
+            </div>
+            <div class="face back">
+                <h3>Triángulo</h3>
+                <button class="figuras" id="abrirModalT">Perímetro</button>
+                <button class="figuras" id="abrirModalTR">Área</button>
+                <div class="link">
+                    <button class="figuras" id="abrirModalTD">Detalles</button>
+                </div>
+            </div>
+        </div>
+        <div id="ventanaModalT" class="modalt" style="padding-top: 50px;">
+            <div class="contenidoModalT">
+                <span class="cerrarModalT"><i class="fa-solid fa-xmark"></i></span>
+                <h2>Perímetro Triángulo</h2>
+                <form class="form-ejercicios">
+                    <div class="form">
+                        <div class="grupo">
+                            <input type="number" class="" id="ladoCuadradoT" required><span class="barra"></span>
+                            <label for="ladoCuadradoT" class="">Lado</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="number" class="" id="ladoCuadradoT2" required><span class="barra"></span>
+                            <label for="ladoCuadradoT2" class="">Lado</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="number" class="" id="ladoCuadradoT3" required><span class="barra"></span>
+                            <label for="ladoCuadradoT3" class="">Lado</label>
+                        </div>
+                        <button type="submit" class="submit" id="submitT" style="margin-left: 39px; ">Calcular</button>
+                    </div>
+                    <div id="formT">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="ventanaModalTR" class="modaltr" style="padding-top: 50px;">
+            <div class="contenidoModalTR">
+                <span class="cerrarModalTR"><i class="fa-solid fa-xmark"></i></span>
+                <h2>Área Triángulo</h2>
+                <form class="form-ejercicios">
+                    <div class="form">
+                        <div class="grupo">
+                            <input type="number" class="" id="ladoCuadradoTR" required><span class="barra"></span>
+                            <label for="ladoCuadradoTR" class="">Lado</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="number" class="" id="ladoCuadradoTR2" required><span class="barra"></span>
+                            <label for="ladoCuadradoTR2" class="">Lado</label>
+                        </div>
+                        <button type="submit" class="submit" id="submitTR" style="margin-left: 39px; ">Calcular</button>
+                    </div>
+                    <div id="formTR">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="ventanaModalTD" class="modaltd" style="padding-top: 25px;">
+            <div class="contenidoModalTD">
+                <span class="cerrarModalTD"><i class="fa-solid fa-xmark"></i></span>
+                <h2>ÁREAS Y PERÍMETROS</h2>
+                <p style="padding-top: .5rem;">
+                    Podemos deducir la expresión del área de un triángulo a partir del área de un paralelogramo.
+                    <br><br>
+                    El área del triángulo ABC es la mitad de la del paralelogramo ABCD de base b y altura a.
+                    <br><br>
+                    Por tanto el área del triángulo es</p><br>
+                <h4 style="padding-top: .5rem;">PERÍMETRO</h4>
+                <p style="padding: .5rem">El perímetro de un triángulo es la suma de sus lados</p>
+                <p style="color: rgb(128, 0, 0); display: flex; justify-content: center;
+                padding: .5rem;">P= b + c + d</p>
+                <h4 style="padding-top: .5rem;">ÁREA</h4>
+                <p style="padding: .5rem">El área de un triángulo es el producto de uno de sus lados por la altura sobre él dividido entre dos.</p>
+                <p  style="color: rgb(128, 0, 0); display: flex; justify-content: center;
+                padding: .5rem;"><img src="../img/image003.gif" alt=""></p>
+                <img src="../img/areas51.gif" alt="AreaCuadrado" style="position: relative; left: 40%; padding-top: .5rem;">
+            </div>
+        </div>
+        <div class="card">
+            <div class="face front">
+                <img src="../img/Circulo.png" alt="">
+                <h3>Círculo</h3>
+            </div>
+            <div class="face back">
+                <h3>Círculo</h3>
+                <button class="figuras" id="abrirModalC">Perímetro</button>
+                <button class="figuras" id="abrirModalCA">Área</button>
+                <div class="link">
+                    <button class="figuras" id="abrirModalCD">Detalles</button>
+                </div>
+            </div>
+        </div>
+        <div id="ventanaModalC" class="modalc" style="padding-top: 50px;">
+            <div class="contenidoModalC">
+                <span class="cerrarModalC"><i class="fa-solid fa-xmark"></i></span>
+                <h2>Perímetro Círculo</h2>
+                <form class="form-ejercicios">
+                    <div class="form">
+                        <div class="grupo">
+                            <input type="number" class="" id="ladoCuadradoC" required><span class="barra"></span>
+                            <label for="ladoCuadradoC" class="">Radio</label>
+                        </div>
+                        <button type="submit" class="submit" id="submitC" style="margin-left: 39px; ">Calcular</button>
+                    </div>
+                    <div id="formC">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="ventanaModalCA" class="modalca" style="padding-top: 50px;">
+            <div class="contenidoModalCA">
+                <span class="cerrarModalCA"><i class="fa-solid fa-xmark"></i></span>
+                <h2>Área Círculo</h2>
+                <form class="form-ejercicios">
+                    <div class="form">
+                        <div class="grupo">
+                            <input type="number" class="" id="ladoCuadradoCA" required><span class="barra"></span>
+                            <label for="ladoCuadradoCA" class="">Radio</label>
+                        </div>
+                        <button type="submit" class="submit" id="submitCA" style="margin-left: 39px; ">Calcular</button>
+                    </div>
+                    <div id="formCA">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="ventanaModalCD" class="modalcd" style="padding-top: 25px;">
+            <div class="contenidoModalCD">
+                <span class="cerrarModalCD"><i class="fa-solid fa-xmark"></i></span>
+
+                <h2>ÁREAS Y PERÍMETROS</h2>
+                <p style="padding-top: .5rem;">
+                    Se llama   π = Pi al valor del cociente de la longitud de una circunferencia entre su diámetro. Su valor aproximado es 3,14. En realidad π tiene infinitos decimales.
+                    <br><br>
+                    El número π aparece en todas las expresiones relativas a circunferencia, círculos, así como en figuras espaciales que contengan circunferencias.
+                    </p><br>
+                <h4 style="padding-top: .5rem;">PERÍMETRO</h4>
+                <p style="padding: .5rem">El perímetro de un círculo es el doble del producto de π por el radio (r)</p>
+                <p style="color: rgb(128, 0, 0); display: flex; justify-content: center;
+                padding: .5rem;">A= π·R<sup>2</sup></p>
+                <h4 style="padding-top: .5rem;">ÁREA</h4>
+                <p style="padding: .5rem">El área de un círculo es igual al valor de su radio elevado al cuadrado multiplicado por π.</p>
+                <img src="../img/circulo-perimetro.jpg" alt="AreaCuadrado" style="position: relative; left: 35%; padding-top: .5rem;">
+            </div>
+        </div>
+        <div class="card">
+            <div class="face front">
+                <img src="../img/Rectangulo.png" alt="" >
+                <h3>Rectangulo</h3>
+            </div>
+            <div class="face back">
+                <h3>Rectangulo</h3>
+                <button class="figuras" id="abrirModalR">Perímetro</button>
+                <button class="figuras" id="abrirModalRA">Área</button>
+                <div class="link">
+                    <button class="figuras" id="abrirModalRD">Detalles</button>
+                </div>
+            </div>
+        </div>
+        <div id="ventanaModalR" class="modalr" style="padding-top: 100px ;">
+            <div class="contenidoModalR">
+                <span class="cerrarModalR"><i class="fa-solid fa-xmark"></i></span>
+                <h2>Perímetro Rectangulo</h2>
+                <form class="form-ejercicios">
+                    <div class="form">
+                        <div class="grupo">
+                            <input type="number" class="" id="ladoRectangulo" required><span class="barra"></span>
+                            <label for="ladoRectangulo" class="">Lado</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="number" class="" id="ladoRectangulo2" required><span class="barra"></span>
+                            <label for="ladoRectangulo2" class="">Lado</label>
+                        </div>
+                        <button type="submit" class="submit" id="submitR" style="margin-left: 39px; ">Calcular</button>
+                    </div>
+                    <div id="formR">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="ventanaModalRA" class="modalra" style="padding-top: 100px ;">
+            <div class="contenidoModalRA">
+                <span class="cerrarModalRA"><i class="fa-solid fa-xmark"></i></span>
+                <h2>Área Rectangulo</h2>
+                <form class="form-ejercicios">
+                    <div class="form">
+                        <div class="grupo">
+                            <input type="number" class="" id="ladoRectanguloA" required><span class="barra"></span>
+                            <label for="ladoRectanguloA" class="">Lado</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="number" class="" id="ladoRectanguloA2" required><span class="barra"></span>
+                            <label for="ladoRectanguloA2" class="">Lado</label>
+                        </div>
+                        <button type="submit" class="submit" id="submitRA" style="margin-left: 39px; ">Calcular</button>
+                    </div>
+                    <div id="formRA">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="ventanaModalRD" class="modalrd" style="padding-top: 100px;">
+            <div class="contenidoModalRD">
+                <span class="cerrarModalRD"><i class="fa-solid fa-xmark"></i></span>
+                <h2>ÁREAS Y PERÍMETROS</h2>
+                <h4 style="padding-top: .5rem;">PERÍMETRO</h4>
+                <p style="padding: .5rem">El rectángulo tiene los lados iguales dos a dos, por tanto:</p>
+                <p style="color: rgb(128, 0, 0); display: flex; justify-content: center;
+                padding: .5rem;">P = 2· a + 2· b</p>
+                <h4 style="padding-top: .5rem;">ÁREA</h4>
+                <p style="padding: .5rem">El área de un rectángulo es el producto de la longitud de los lados.</p>
+                <p  style="color: rgb(128, 0, 0); display: flex; justify-content: center;
+                padding: .5rem;">A= a · b</p>
+                <img src="../img/areas12.gif" alt="AreaRectangulo" style="position: relative;left: 40%;">
+            </div>
+        </div>   
+    <script src="../js/geometria.js"></script>
+    <!--<script defer src="https://i.icomoon.io/public/temp/5d754fec84/UntitledProject/svgxuse.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/product-sans');
+    </style>
+</body>
+</html>

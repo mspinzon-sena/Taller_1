@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <!--FONT -->
+    <link href="http://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+    <title>Generador Nombre</title>
+</head>
+<body>
+    <div class="">
+        
+        <form class="form-ejercicios">
+            <div id="espacioregresar">   
+                <a href="../index.html" id="botonregresar"><i class="fa-solid fa-chevron-left" id="iconoregresar"></i></a>
+            </div>
+            <div class="form">
+                
+                <h1>Generador</h1>
+                <div class="grupo">
+                    <input type="text" class="" id="nombre" required><span class="barra"></span>
+                    <label for="nombre" class="">Ingrese su nombre</label>
+                </div>
+                <div class="grupo">
+                    <input type="text" class="" id="apellido" required><span class="barra"></span>
+                    <label for="apellido" class="">Ingrese su apellido</label>
+                </div>
+                <div class=" grupo">
+                    <select class="grupo" id="seleccion" style="margin-left: 0;" required><span class="barra"></span>
+                        <option selected>Seleccione una opción</option>
+                        <option value="1">Mostrar solo el nombre</option>
+                        <option value="2">Calcular la longitud del nombre</option>
+                        <option value="3">Generar la primera letra</option>
+                        <option value="4">Mostrar solo el apellido</option>
+                        <option value="5">Calcular la longitud del apellido</option>
+                        <option value="6">Generar nombre de usuario</option>
+                    </select>
+                </div>
+                <div id="form">
+             
+                </div> 
+                    <button type="submit" class="submit" id="submit">Respuesta</button><!-- onclick="calcular()"-->
+                </div>
+                
+        </form>
+    </div>
+    <script src="../js/generador.js"></script>
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/product-sans');
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
